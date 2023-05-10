@@ -1,0 +1,226 @@
+body{
+    margin: 0 auto;
+    background-color: grey;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+
+.logo{
+    float: left;
+    padding: 15px;
+}
+.search_bar{
+    float: right;
+    padding: 15px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.main-menu{
+    background-color: teal;
+}
+
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.main-menu > ul > li{
+    display: inline-block;
+}
+
+.main-menu >ul>li>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+
+.main-menu >ul>li>a:hover{
+    background-color: orange;
+}
+
+.drop-down-menu{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+
+.drop-down-menu >li> a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: smaller;
+    background-color: black;
+    
+}
+.drop-down-menu >li> a:hover{
+    background-color: orange;
+}
+
+.main-menu >ul >li:hover .drop-down-menu{
+    display: block;
+}
+
+
+
+.banner{
+    width: 1000px;
+    height: 400px;
+    /* height: auto; */
+    overflow: hidden;
+}
+
+.banner > img{
+    width: 1000px;
+    height: 400px;
+    
+}
+
+.content-holder{
+    background-color:bisque;
+}
+
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+
+.content >h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.content > p{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.sidebar > div > h3{
+    font-family: sans-serif;
+    color: rgb(220, 12, 12);
+    font-weight: bolder;
+}
+
+.sidebar > div >ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.sidebar > div > ul > li > a{
+    display: block;
+    margin-bottom: 30px;
+    color: rgb(63, 185, 169);
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    padding: 25px;
+}
+
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+    
+}
+
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom:8px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box  address  a{
+    color: teal;
+    font-size: small;
+}
+
+.copyright{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+}
+
+.copyright > p{
+    margin: 0px;
+}
+
+.content  img{
+    width: 700px;
+}
+.product{
+    width: 233px;
+    float: left;
+}
+.product img{
+    width: 200px;
+    height: auto;
+    float: left;
+    padding: 15px;
+}
+
+.product-caption-1{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    margin: 1px;
+    border: solid 1px red;
+}
+
+.product-caption-2{
+    text-align: center;
+    font-weight: bolder;
+    background-color: aquamarine;
+    /* padding-left: 2px; */
+}
+
+.banner iframe{
+    width: 100%;
+    height: 416.66px;
+}
